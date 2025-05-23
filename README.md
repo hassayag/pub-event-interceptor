@@ -1,6 +1,6 @@
-# Pub Event Server
+# Pub Event Interceptor
 
-## Usage
+## Server Usage
 `docker-compose up -d`
 
 `npm run build`
