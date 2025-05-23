@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i && tsc",
+    "start": "drizzle-kit push && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "drizzle-kit": "^0.31.1",
+    "drizzle-orm": "^0.43.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.23"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "typescript": "^5.8.3"
+  }
+}
